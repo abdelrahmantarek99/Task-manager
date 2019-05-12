@@ -21,6 +21,9 @@ namespace TaskManager
         {
             Task task = new Task("Test", 0);
 
+            task.Forward(new Forward(0));
+            task.Forward(new Forward(1));
+
             Attachment attachment = new Attachment("C:\\Users\\shaks");
             task.addAttachment(attachment);
 
@@ -33,9 +36,14 @@ namespace TaskManager
             description = new Description("Bla bla blaaaaaaaaaaaaaaaaaaaaaa");
             task.editDescription(description);
 
-            task.Forward(new Forward(1));
+            
+            task.addComment(new Comment("comment"));
+            task.addComment(new Comment("commmmmmmmmmment"));
 
-            task.serialize(0);
+            Task.readTasks();
+            task.taskId = Task.tasks.Count;
+            Task.tasks.Add(task);
+            Task.writeTasks();
         }
     }
 }

@@ -10,13 +10,14 @@ namespace TaskManager
 {
     public class Task
     {
-        private FileStream fileStream;
-        private XmlSerializer xmlSerializer;
-        public DateTime startDate, endDate;
+        static public List<Task> tasks = new List<Task>();
+
+        public DateTime startDate, closeDate;
         public int taskId;
         public String taskName;
         public List<Forward> forwards;
         public List<Description> descriptions;
+        public List<Comment> comments;
         public List<Attachment> attachments;
 
         private Task()
@@ -24,6 +25,7 @@ namespace TaskManager
             startDate = DateTime.Now;
             forwards = new List<Forward>();
             descriptions = new List<Description>();
+            comments = new List<Comment>();
             attachments = new List<Attachment>();
         }
 
@@ -51,14 +53,32 @@ namespace TaskManager
 
         public void Forward(Forward forward)
         {
+            /*
+              if (!forwards.empty())
+                getCurrentEmployeId ->> remove the task
+              
+            add the task to the forward
+             */
             forwards.Add(forward);
+        }
+
+        public int getCurrentEmployeeId()
+        {
+            return forwards.Last().getEmployeeId();
         }
 
         public void addAttachment(Attachment attachment)
         {
+            attachment.setEmployeeId(getCurrentEmployeeId());
             attachments.Add(attachment);
         }
         
+        public void addComment(Comment comment)
+        {
+            comment.setEmployeeId(getCurrentEmployeeId()); 
+            comments.Add(comment);
+        }
+
         public void editDescription(Description description)
         {
             descriptions.Add(description);
@@ -86,22 +106,27 @@ namespace TaskManager
             return taskEvents;
         }
         
-        public void setEndDate(DateTime date)
+        public void setCloseDate(DateTime date)
         {
-            endDate = date;
+            closeDate = date;
         }
 
-        public void serialize(int projectId)
+        static public void readTasks()
         {
-            Directory.CreateDirectory(projectId.ToString());
+            FileStream fileStream = new FileStream("History.xml", FileMode.OpenOrCreate);
+            XmlSerializer xmlSerializer = new XmlSerializer(tasks.GetType());
 
-            if (File.Exists(projectId.ToString() + "\\" + taskId))
-                fileStream = new FileStream(projectId.ToString() + "\\" + taskId + ".xml", FileMode.Truncate);
-            else
-                fileStream = new FileStream(projectId.ToString() + "\\" + taskId + ".xml", FileMode.Create);
-            
-            xmlSerializer = new XmlSerializer(this.GetType());
-            xmlSerializer.Serialize(fileStream, this);
+            if (fileStream.Length != 0)
+                tasks = (List<Task>)xmlSerializer.Deserialize(fileStream);
+
+            fileStream.Close();
+        }
+
+        static public void writeTasks()
+        {
+            FileStream fileStream = new FileStream("History.xml", FileMode.OpenOrCreate);
+            XmlSerializer xmlSerializer = new XmlSerializer(tasks.GetType());
+            xmlSerializer.Serialize(fileStream, tasks);
             fileStream.Close();
         }
     }

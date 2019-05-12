@@ -6,28 +6,28 @@ using System.Threading.Tasks;
 
 namespace TaskManager
 {
-    public class Attachment : TaskEvent
+    public class Comment : TaskEvent
     {
-        public String attachment;
+        public String comment;
         public int empId;
 
-        public Attachment() { }
+        public Comment() { }
 
-        public Attachment(String attachment) : base()
+        public Comment(String comment)
         {
-            this.attachment = (String)attachment.Clone();
+            this.comment = (String)comment.Clone();
         }
 
-        public void setAttachment(String attachment)
+        public void setComment(String Comment)
         {
-            this.attachment = (String)attachment.Clone();
+            this.comment = (String)comment.Clone();
         }
 
-        public String getAttachment()
+        public String getComment()
         {
-            return attachment;
+            return comment;
         }
-
+        
         public void setEmployeeId(int empId)
         {
             this.empId = empId;

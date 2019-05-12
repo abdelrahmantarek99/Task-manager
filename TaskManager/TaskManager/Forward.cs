@@ -17,6 +17,11 @@ namespace TaskManager
             this.empId = empId;
         }
 
+        public void setEmployeeId(int empId)
+        {
+            this.empId = empId;
+        }
+
         public int getEmployeeId()
         {
             return empId;
