@@ -200,4 +200,54 @@
       </Attachment>
     </attachments>
   </Task>
+  <Task>
+    <startDate>2019-05-12T05:54:30.5722945+02:00</startDate>
+    <closeDate>0001-01-01T00:00:00</closeDate>
+    <taskId>4</taskId>
+    <taskName>Test</taskName>
+    <forwards>
+      <Forward>
+        <date>2019-05-12T05:54:30.5732921+02:00</date>
+        <empId>0</empId>
+      </Forward>
+      <Forward>
+        <date>2019-05-12T05:54:30.5732921+02:00</date>
+        <empId>1</empId>
+      </Forward>
+    </forwards>
+    <descriptions>
+      <Description>
+        <date>2019-05-12T05:54:30.5742923+02:00</date>
+        <description>Bla bla bla</description>
+      </Description>
+      <Description>
+        <date>2019-05-12T05:54:30.5742923+02:00</date>
+        <description>Bla bla blaaaaaaaaaaaaaaaaaaaaaa</description>
+      </Description>
+    </descriptions>
+    <comments>
+      <Comment>
+        <date>2019-05-12T05:54:30.5742923+02:00</date>
+        <comment>comment</comment>
+        <empId>1</empId>
+      </Comment>
+      <Comment>
+        <date>2019-05-12T05:54:30.5742923+02:00</date>
+        <comment>commmmmmmmmmment</comment>
+        <empId>1</empId>
+      </Comment>
+    </comments>
+    <attachments>
+      <Attachment>
+        <date>2019-05-12T05:54:30.5732921+02:00</date>
+        <attachment>C:\Users\shaks</attachment>
+        <empId>1</empId>
+      </Attachment>
+      <Attachment>
+        <date>2019-05-12T05:54:30.5742923+02:00</date>
+        <attachment>C:\Users\shakshak</attachment>
+        <empId>1</empId>
+      </Attachment>
+    </attachments>
+  </Task>
 </ArrayOfTask>

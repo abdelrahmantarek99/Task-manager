@@ -12,7 +12,7 @@ namespace TaskManager
         public int empId;
 
         public Comment() { }
-
+        // this is a comment
         public Comment(String comment)
         {
             this.comment = (String)comment.Clone();
