@@ -6,13 +6,18 @@ using System.Threading.Tasks;
 
 namespace TaskManager
 {
-    class TaskEvent
+    public class TaskEvent
     {
-        private DateTime date;
+        public DateTime date;
 
         public TaskEvent()
         {
             date = DateTime.Now;
+        }
+
+        public void setDate(DateTime date)
+        {
+            this.date = date;
         }
 
         public DateTime getDate()

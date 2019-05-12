@@ -1,0 +1,10 @@
+C:\Users\shaks\source\repos\TaskManager\TaskManager\bin\Debug\TaskManager.exe.config
+C:\Users\shaks\source\repos\TaskManager\TaskManager\bin\Debug\TaskManager.exe
+C:\Users\shaks\source\repos\TaskManager\TaskManager\bin\Debug\TaskManager.pdb
+C:\Users\shaks\source\repos\TaskManager\TaskManager\obj\Debug\TaskManager.csprojAssemblyReference.cache
+C:\Users\shaks\source\repos\TaskManager\TaskManager\obj\Debug\TaskManager.Form1.resources
+C:\Users\shaks\source\repos\TaskManager\TaskManager\obj\Debug\TaskManager.Properties.Resources.resources
+C:\Users\shaks\source\repos\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.GenerateResource.cache
+C:\Users\shaks\source\repos\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.CoreCompileInputs.cache
+C:\Users\shaks\source\repos\TaskManager\TaskManager\obj\Debug\TaskManager.exe
+C:\Users\shaks\source\repos\TaskManager\TaskManager\obj\Debug\TaskManager.pdb
