@@ -18,3 +18,14 @@ C:\Users\dell\Desktop\second year\task manager files proj\Task-Manager-master\Ta
 C:\Users\dell\Desktop\second year\task manager files proj\Task-Manager-master\TaskManager\TaskManager\obj\Debug\TaskManager.Properties.Resources.resources
 C:\Users\dell\Desktop\second year\task manager files proj\Task-Manager-master\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.GenerateResource.Cache
 C:\Users\dell\Desktop\second year\task manager files proj\Task-Manager-master\TaskManager\TaskManager\bin\Debug\Bunifu_UI_v1.4.dll
+C:\Users\shaks\Documents\GitHub\El Hanty Kanty\Task-Manager\TaskManager\TaskManager\bin\Debug\TaskManager.exe.config
+C:\Users\shaks\Documents\GitHub\El Hanty Kanty\Task-Manager\TaskManager\TaskManager\bin\Debug\TaskManager.exe
+C:\Users\shaks\Documents\GitHub\El Hanty Kanty\Task-Manager\TaskManager\TaskManager\bin\Debug\TaskManager.pdb
+C:\Users\shaks\Documents\GitHub\El Hanty Kanty\Task-Manager\TaskManager\TaskManager\obj\Debug\TaskManager.csprojAssemblyReference.cache
+C:\Users\shaks\Documents\GitHub\El Hanty Kanty\Task-Manager\TaskManager\TaskManager\obj\Debug\TaskManager.Form1.resources
+C:\Users\shaks\Documents\GitHub\El Hanty Kanty\Task-Manager\TaskManager\TaskManager\obj\Debug\TaskManager.Properties.Resources.resources
+C:\Users\shaks\Documents\GitHub\El Hanty Kanty\Task-Manager\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.GenerateResource.cache
+C:\Users\shaks\Documents\GitHub\El Hanty Kanty\Task-Manager\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.CoreCompileInputs.cache
+C:\Users\shaks\Documents\GitHub\El Hanty Kanty\Task-Manager\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.CopyComplete
+C:\Users\shaks\Documents\GitHub\El Hanty Kanty\Task-Manager\TaskManager\TaskManager\obj\Debug\TaskManager.exe
+C:\Users\shaks\Documents\GitHub\El Hanty Kanty\Task-Manager\TaskManager\TaskManager\obj\Debug\TaskManager.pdb

@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace TaskManager
 {
-    public class Forward : TaskEvent
+    public class ForwardHistory : TaskEvent
     {
         public int empId;
 
-        public Forward() { }
+        public ForwardHistory() { }
 
-        public Forward(int empId) : base()
+        public ForwardHistory(int empId) : base()
         {
             this.empId = empId;
         }

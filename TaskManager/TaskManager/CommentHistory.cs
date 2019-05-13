@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace TaskManager
 {
-    public class Comment : TaskEvent
+    public class CommentHistory : TaskEvent
     {
         public String comment;
         public int empId;
 
-        public Comment() { }
+        public CommentHistory() { }
 
-        public Comment(String comment)
+        public CommentHistory(String comment)
         {
             this.comment = (String)comment.Clone();
         }

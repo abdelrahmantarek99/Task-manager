@@ -8,50 +8,50 @@ using System.Xml.Serialization;
 
 namespace TaskManager
 {
-    public class Task
+    public class TaskHistory
     {
-        static public List<Task> tasks = new List<Task>();
+        static public List<TaskHistory> tasks = new List<TaskHistory>();
 
         public DateTime startDate, closeDate;
         public int taskId;
         public String taskName;
-        public List<Forward> forwards;
-        public List<Description> descriptions;
-        public List<Comment> comments;
-        public List<Attachment> attachments;
+        public List<ForwardHistory> forwards;
+        public List<DescriptionHistory> descriptions;
+        public List<CommentHistory> comments;
+        public List<AttachmentHistory> attachments;
 
-        private Task()
+        private TaskHistory()
         {
             startDate = DateTime.Now;
-            forwards = new List<Forward>();
-            descriptions = new List<Description>();
-            comments = new List<Comment>();
-            attachments = new List<Attachment>();
+            forwards = new List<ForwardHistory>();
+            descriptions = new List<DescriptionHistory>();
+            comments = new List<CommentHistory>();
+            attachments = new List<AttachmentHistory>();
         }
 
-        public Task(String taskName, int taskId) : this()
+        public TaskHistory(String taskName, int taskId) : this()
         {
             this.taskName = taskName;
             this.taskId = taskId;
         }
         
-        public Task(String taskName, int taskId, Description description) : this(taskName, taskId)
+        public TaskHistory(String taskName, int taskId, DescriptionHistory description) : this(taskName, taskId)
         {
             descriptions.Add(description);
         }
 
-        public Task(String taskName, int taskId, Forward forward) : this(taskName, taskId)
+        public TaskHistory(String taskName, int taskId, ForwardHistory forward) : this(taskName, taskId)
         {
             forwards.Add(forward);
         }
         
-        public Task(String taskName, int taskId, Description description, Forward forward) : this(taskName, taskId)
+        public TaskHistory(String taskName, int taskId, DescriptionHistory description, ForwardHistory forward) : this(taskName, taskId)
         {
             descriptions.Add(description);
             forwards.Add(forward);
         }
 
-        public void Forward(Forward forward)
+        public void Forward(ForwardHistory forward)
         {
             /*
               if (!forwards.empty())
@@ -67,19 +67,19 @@ namespace TaskManager
             return forwards.Last().getEmployeeId();
         }
 
-        public void addAttachment(Attachment attachment)
+        public void addAttachment(AttachmentHistory attachment)
         {
             attachment.setEmployeeId(getCurrentEmployeeId());
             attachments.Add(attachment);
         }
         
-        public void addComment(Comment comment)
+        public void addComment(CommentHistory comment)
         {
             comment.setEmployeeId(getCurrentEmployeeId()); 
             comments.Add(comment);
         }
 
-        public void editDescription(Description description)
+        public void editDescription(DescriptionHistory description)
         {
             descriptions.Add(description);
         }
@@ -88,17 +88,17 @@ namespace TaskManager
         {
             List<TaskEvent> taskEvents = new List<TaskEvent>();
 
-            foreach (Forward forward in forwards)
+            foreach (ForwardHistory forward in forwards)
             {
                 taskEvents.Add(forward);
             }
 
-            foreach (Description description in descriptions)
+            foreach (DescriptionHistory description in descriptions)
             {
                 taskEvents.Add(description);
             }
 
-            foreach (Attachment attachment in attachments)
+            foreach (AttachmentHistory attachment in attachments)
             {
                 taskEvents.Add(attachment);
             }
@@ -117,7 +117,7 @@ namespace TaskManager
             XmlSerializer xmlSerializer = new XmlSerializer(tasks.GetType());
 
             if (fileStream.Length != 0)
-                tasks = (List<Task>)xmlSerializer.Deserialize(fileStream);
+                tasks = (List<TaskHistory>)xmlSerializer.Deserialize(fileStream);
 
             fileStream.Close();
         }

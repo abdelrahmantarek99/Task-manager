@@ -20,31 +20,31 @@ namespace TaskManager
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Task task = new Task("Test", 0);
+            TaskHistory task = new TaskHistory("Test", 0);
 
-            task.Forward(new Forward(0));
-            task.Forward(new Forward(1));
+            task.Forward(new ForwardHistory(0));
+            task.Forward(new ForwardHistory(1));
 
-            Attachment attachment = new Attachment("C:\\Users\\shaks");
+            AttachmentHistory attachment = new AttachmentHistory("C:\\Users\\shaks");
             task.addAttachment(attachment);
 
-            attachment = new Attachment("C:\\Users\\shakshak");
+            attachment = new AttachmentHistory("C:\\Users\\shakshak");
             task.addAttachment(attachment);
 
-            Description description = new Description("Bla bla bla");
+            DescriptionHistory description = new DescriptionHistory("Bla bla bla");
             task.editDescription(description);
 
-            description = new Description("Bla bla blaaaaaaaaaaaaaaaaaaaaaa");
+            description = new DescriptionHistory("Bla bla blaaaaaaaaaaaaaaaaaaaaaa");
             task.editDescription(description);
 
             
-            task.addComment(new Comment("comment"));
-            task.addComment(new Comment("commmmmmmmmmment"));
+            task.addComment(new CommentHistory("comment"));
+            task.addComment(new CommentHistory("commmmmmmmmmment"));
 
-            Task.readTasks();
-            task.taskId = Task.tasks.Count;
-            Task.tasks.Add(task);
-            Task.writeTasks();
+            TaskHistory.readTasks();
+            task.taskId = TaskHistory.tasks.Count;
+            TaskHistory.tasks.Add(task);
+            TaskHistory.writeTasks();
         }
 
         private void Form1_Load(object sender, EventArgs e)

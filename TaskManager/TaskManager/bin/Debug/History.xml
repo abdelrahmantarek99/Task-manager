@@ -1,253 +1,303 @@
 <?xml version="1.0"?>
-<ArrayOfTask xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Task>
-    <startDate>2019-05-12T05:30:45.6686848+02:00</startDate>
+<ArrayOfTaskHistory xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TaskHistory>
+    <startDate>2019-05-13T05:01:21.8241781+02:00</startDate>
     <closeDate>0001-01-01T00:00:00</closeDate>
     <taskId>0</taskId>
     <taskName>Test</taskName>
     <forwards>
-      <Forward>
-        <date>2019-05-12T05:30:45.6730953+02:00</date>
+      <ForwardHistory>
+        <date>2019-05-13T05:01:21.8251761+02:00</date>
         <empId>0</empId>
-      </Forward>
-      <Forward>
-        <date>2019-05-12T05:30:45.6730953+02:00</date>
+      </ForwardHistory>
+      <ForwardHistory>
+        <date>2019-05-13T05:01:21.8251761+02:00</date>
         <empId>1</empId>
-      </Forward>
+      </ForwardHistory>
     </forwards>
     <descriptions>
-      <Description>
-        <date>2019-05-12T05:30:45.6760874+02:00</date>
+      <DescriptionHistory>
+        <date>2019-05-13T05:01:21.8251761+02:00</date>
         <description>Bla bla bla</description>
-      </Description>
-      <Description>
-        <date>2019-05-12T05:30:45.6760874+02:00</date>
+      </DescriptionHistory>
+      <DescriptionHistory>
+        <date>2019-05-13T05:01:21.8261728+02:00</date>
         <description>Bla bla blaaaaaaaaaaaaaaaaaaaaaa</description>
-      </Description>
+      </DescriptionHistory>
     </descriptions>
     <comments>
-      <Comment>
-        <date>2019-05-12T05:30:45.6760874+02:00</date>
+      <CommentHistory>
+        <date>2019-05-13T05:01:21.8261728+02:00</date>
         <comment>comment</comment>
         <empId>1</empId>
-      </Comment>
-      <Comment>
-        <date>2019-05-12T05:30:45.6770846+02:00</date>
+      </CommentHistory>
+      <CommentHistory>
+        <date>2019-05-13T05:01:21.8261728+02:00</date>
         <comment>commmmmmmmmmment</comment>
         <empId>1</empId>
-      </Comment>
+      </CommentHistory>
     </comments>
     <attachments>
-      <Attachment>
-        <date>2019-05-12T05:30:45.6740928+02:00</date>
+      <AttachmentHistory>
+        <date>2019-05-13T05:01:21.8251761+02:00</date>
         <attachment>C:\Users\shaks</attachment>
         <empId>1</empId>
-      </Attachment>
-      <Attachment>
-        <date>2019-05-12T05:30:45.6750903+02:00</date>
+      </AttachmentHistory>
+      <AttachmentHistory>
+        <date>2019-05-13T05:01:21.8251761+02:00</date>
         <attachment>C:\Users\shakshak</attachment>
         <empId>1</empId>
-      </Attachment>
+      </AttachmentHistory>
     </attachments>
-  </Task>
-  <Task>
-    <startDate>2019-05-12T05:31:00.2926765+02:00</startDate>
+  </TaskHistory>
+  <TaskHistory>
+    <startDate>2019-05-13T05:01:23.627587+02:00</startDate>
     <closeDate>0001-01-01T00:00:00</closeDate>
     <taskId>1</taskId>
     <taskName>Test</taskName>
     <forwards>
-      <Forward>
-        <date>2019-05-12T05:31:00.2936381+02:00</date>
+      <ForwardHistory>
+        <date>2019-05-13T05:01:23.627587+02:00</date>
         <empId>0</empId>
-      </Forward>
-      <Forward>
-        <date>2019-05-12T05:31:00.2936381+02:00</date>
+      </ForwardHistory>
+      <ForwardHistory>
+        <date>2019-05-13T05:01:23.627587+02:00</date>
         <empId>1</empId>
-      </Forward>
+      </ForwardHistory>
     </forwards>
     <descriptions>
-      <Description>
-        <date>2019-05-12T05:31:00.2946353+02:00</date>
+      <DescriptionHistory>
+        <date>2019-05-13T05:01:23.627587+02:00</date>
         <description>Bla bla bla</description>
-      </Description>
-      <Description>
-        <date>2019-05-12T05:31:00.2946353+02:00</date>
+      </DescriptionHistory>
+      <DescriptionHistory>
+        <date>2019-05-13T05:01:23.627587+02:00</date>
         <description>Bla bla blaaaaaaaaaaaaaaaaaaaaaa</description>
-      </Description>
+      </DescriptionHistory>
     </descriptions>
     <comments>
-      <Comment>
-        <date>2019-05-12T05:31:00.2946353+02:00</date>
+      <CommentHistory>
+        <date>2019-05-13T05:01:23.627587+02:00</date>
         <comment>comment</comment>
         <empId>1</empId>
-      </Comment>
-      <Comment>
-        <date>2019-05-12T05:31:00.2946353+02:00</date>
+      </CommentHistory>
+      <CommentHistory>
+        <date>2019-05-13T05:01:23.627587+02:00</date>
         <comment>commmmmmmmmmment</comment>
         <empId>1</empId>
-      </Comment>
+      </CommentHistory>
     </comments>
     <attachments>
-      <Attachment>
-        <date>2019-05-12T05:31:00.2936381+02:00</date>
+      <AttachmentHistory>
+        <date>2019-05-13T05:01:23.627587+02:00</date>
         <attachment>C:\Users\shaks</attachment>
         <empId>1</empId>
-      </Attachment>
-      <Attachment>
-        <date>2019-05-12T05:31:00.2936381+02:00</date>
+      </AttachmentHistory>
+      <AttachmentHistory>
+        <date>2019-05-13T05:01:23.627587+02:00</date>
         <attachment>C:\Users\shakshak</attachment>
         <empId>1</empId>
-      </Attachment>
+      </AttachmentHistory>
     </attachments>
-  </Task>
-  <Task>
-    <startDate>2019-05-12T05:31:41.9916525+02:00</startDate>
+  </TaskHistory>
+  <TaskHistory>
+    <startDate>2019-05-13T05:01:24.3147597+02:00</startDate>
     <closeDate>0001-01-01T00:00:00</closeDate>
     <taskId>2</taskId>
     <taskName>Test</taskName>
     <forwards>
-      <Forward>
-        <date>2019-05-12T05:31:41.9946107+02:00</date>
+      <ForwardHistory>
+        <date>2019-05-13T05:01:24.3147597+02:00</date>
         <empId>0</empId>
-      </Forward>
-      <Forward>
-        <date>2019-05-12T05:31:41.9946107+02:00</date>
+      </ForwardHistory>
+      <ForwardHistory>
+        <date>2019-05-13T05:01:24.3147597+02:00</date>
         <empId>1</empId>
-      </Forward>
+      </ForwardHistory>
     </forwards>
     <descriptions>
-      <Description>
-        <date>2019-05-12T05:31:41.9972798+02:00</date>
+      <DescriptionHistory>
+        <date>2019-05-13T05:01:24.3147597+02:00</date>
         <description>Bla bla bla</description>
-      </Description>
-      <Description>
-        <date>2019-05-12T05:31:41.9976029+02:00</date>
+      </DescriptionHistory>
+      <DescriptionHistory>
+        <date>2019-05-13T05:01:24.3147597+02:00</date>
         <description>Bla bla blaaaaaaaaaaaaaaaaaaaaaa</description>
-      </Description>
+      </DescriptionHistory>
     </descriptions>
     <comments>
-      <Comment>
-        <date>2019-05-12T05:31:41.9976029+02:00</date>
+      <CommentHistory>
+        <date>2019-05-13T05:01:24.3147597+02:00</date>
         <comment>comment</comment>
         <empId>1</empId>
-      </Comment>
-      <Comment>
-        <date>2019-05-12T05:31:41.9986008+02:00</date>
+      </CommentHistory>
+      <CommentHistory>
+        <date>2019-05-13T05:01:24.3147597+02:00</date>
         <comment>commmmmmmmmmment</comment>
         <empId>1</empId>
-      </Comment>
+      </CommentHistory>
     </comments>
     <attachments>
-      <Attachment>
-        <date>2019-05-12T05:31:41.9956083+02:00</date>
+      <AttachmentHistory>
+        <date>2019-05-13T05:01:24.3147597+02:00</date>
         <attachment>C:\Users\shaks</attachment>
         <empId>1</empId>
-      </Attachment>
-      <Attachment>
-        <date>2019-05-12T05:31:41.9966062+02:00</date>
+      </AttachmentHistory>
+      <AttachmentHistory>
+        <date>2019-05-13T05:01:24.3147597+02:00</date>
         <attachment>C:\Users\shakshak</attachment>
         <empId>1</empId>
-      </Attachment>
+      </AttachmentHistory>
     </attachments>
-  </Task>
-  <Task>
-    <startDate>2019-05-12T05:31:41.9916525+02:00</startDate>
+  </TaskHistory>
+  <TaskHistory>
+    <startDate>2019-05-13T05:01:24.4783218+02:00</startDate>
     <closeDate>0001-01-01T00:00:00</closeDate>
     <taskId>3</taskId>
     <taskName>Test</taskName>
     <forwards>
-      <Forward>
-        <date>2019-05-12T05:31:41.9946107+02:00</date>
+      <ForwardHistory>
+        <date>2019-05-13T05:01:24.4783218+02:00</date>
         <empId>0</empId>
-      </Forward>
-      <Forward>
-        <date>2019-05-12T05:31:41.9946107+02:00</date>
+      </ForwardHistory>
+      <ForwardHistory>
+        <date>2019-05-13T05:01:24.4783218+02:00</date>
         <empId>1</empId>
-      </Forward>
+      </ForwardHistory>
     </forwards>
     <descriptions>
-      <Description>
-        <date>2019-05-12T05:31:41.9972798+02:00</date>
+      <DescriptionHistory>
+        <date>2019-05-13T05:01:24.4783218+02:00</date>
         <description>Bla bla bla</description>
-      </Description>
-      <Description>
-        <date>2019-05-12T05:31:41.9976029+02:00</date>
+      </DescriptionHistory>
+      <DescriptionHistory>
+        <date>2019-05-13T05:01:24.4783218+02:00</date>
         <description>Bla bla blaaaaaaaaaaaaaaaaaaaaaa</description>
-      </Description>
+      </DescriptionHistory>
     </descriptions>
     <comments>
-      <Comment>
-        <date>2019-05-12T05:31:41.9976029+02:00</date>
+      <CommentHistory>
+        <date>2019-05-13T05:01:24.4783218+02:00</date>
         <comment>comment</comment>
         <empId>1</empId>
-      </Comment>
-      <Comment>
-        <date>2019-05-12T05:31:41.9986008+02:00</date>
+      </CommentHistory>
+      <CommentHistory>
+        <date>2019-05-13T05:01:24.4783218+02:00</date>
         <comment>commmmmmmmmmment</comment>
         <empId>1</empId>
-      </Comment>
+      </CommentHistory>
     </comments>
     <attachments>
-      <Attachment>
-        <date>2019-05-12T05:31:41.9956083+02:00</date>
+      <AttachmentHistory>
+        <date>2019-05-13T05:01:24.4783218+02:00</date>
         <attachment>C:\Users\shaks</attachment>
         <empId>1</empId>
-      </Attachment>
-      <Attachment>
-        <date>2019-05-12T05:31:41.9966062+02:00</date>
+      </AttachmentHistory>
+      <AttachmentHistory>
+        <date>2019-05-13T05:01:24.4783218+02:00</date>
         <attachment>C:\Users\shakshak</attachment>
         <empId>1</empId>
-      </Attachment>
+      </AttachmentHistory>
     </attachments>
-  </Task>
-  <Task>
-    <startDate>2019-05-12T05:57:18.6543383+02:00</startDate>
+  </TaskHistory>
+  <TaskHistory>
+    <startDate>2019-05-13T05:01:24.6109675+02:00</startDate>
     <closeDate>0001-01-01T00:00:00</closeDate>
     <taskId>4</taskId>
     <taskName>Test</taskName>
     <forwards>
-      <Forward>
-        <date>2019-05-12T05:57:18.655338+02:00</date>
+      <ForwardHistory>
+        <date>2019-05-13T05:01:24.6109675+02:00</date>
         <empId>0</empId>
-      </Forward>
-      <Forward>
-        <date>2019-05-12T05:57:18.655338+02:00</date>
+      </ForwardHistory>
+      <ForwardHistory>
+        <date>2019-05-13T05:01:24.6109675+02:00</date>
         <empId>1</empId>
-      </Forward>
+      </ForwardHistory>
     </forwards>
     <descriptions>
-      <Description>
-        <date>2019-05-12T05:57:18.6713378+02:00</date>
+      <DescriptionHistory>
+        <date>2019-05-13T05:01:24.6109675+02:00</date>
         <description>Bla bla bla</description>
-      </Description>
-      <Description>
-        <date>2019-05-12T05:57:18.6713378+02:00</date>
+      </DescriptionHistory>
+      <DescriptionHistory>
+        <date>2019-05-13T05:01:24.6109675+02:00</date>
         <description>Bla bla blaaaaaaaaaaaaaaaaaaaaaa</description>
-      </Description>
+      </DescriptionHistory>
     </descriptions>
     <comments>
-      <Comment>
-        <date>2019-05-12T05:57:18.6713378+02:00</date>
+      <CommentHistory>
+        <date>2019-05-13T05:01:24.6109675+02:00</date>
         <comment>comment</comment>
         <empId>1</empId>
-      </Comment>
-      <Comment>
-        <date>2019-05-12T05:57:18.6713378+02:00</date>
+      </CommentHistory>
+      <CommentHistory>
+        <date>2019-05-13T05:01:24.6109675+02:00</date>
         <comment>commmmmmmmmmment</comment>
         <empId>1</empId>
-      </Comment>
+      </CommentHistory>
     </comments>
     <attachments>
-      <Attachment>
-        <date>2019-05-12T05:57:18.655338+02:00</date>
+      <AttachmentHistory>
+        <date>2019-05-13T05:01:24.6109675+02:00</date>
         <attachment>C:\Users\shaks</attachment>
         <empId>1</empId>
-      </Attachment>
-      <Attachment>
-        <date>2019-05-12T05:57:18.6713378+02:00</date>
+      </AttachmentHistory>
+      <AttachmentHistory>
+        <date>2019-05-13T05:01:24.6109675+02:00</date>
         <attachment>C:\Users\shakshak</attachment>
         <empId>1</empId>
-      </Attachment>
+      </AttachmentHistory>
     </attachments>
-  </Task>
-</ArrayOfTask>
+  </TaskHistory>
+  <TaskHistory>
+    <startDate>2019-05-13T05:01:24.8258402+02:00</startDate>
+    <closeDate>0001-01-01T00:00:00</closeDate>
+    <taskId>5</taskId>
+    <taskName>Test</taskName>
+    <forwards>
+      <ForwardHistory>
+        <date>2019-05-13T05:01:24.8258402+02:00</date>
+        <empId>0</empId>
+      </ForwardHistory>
+      <ForwardHistory>
+        <date>2019-05-13T05:01:24.8258402+02:00</date>
+        <empId>1</empId>
+      </ForwardHistory>
+    </forwards>
+    <descriptions>
+      <DescriptionHistory>
+        <date>2019-05-13T05:01:24.8258402+02:00</date>
+        <description>Bla bla bla</description>
+      </DescriptionHistory>
+      <DescriptionHistory>
+        <date>2019-05-13T05:01:24.8258402+02:00</date>
+        <description>Bla bla blaaaaaaaaaaaaaaaaaaaaaa</description>
+      </DescriptionHistory>
+    </descriptions>
+    <comments>
+      <CommentHistory>
+        <date>2019-05-13T05:01:24.8258402+02:00</date>
+        <comment>comment</comment>
+        <empId>1</empId>
+      </CommentHistory>
+      <CommentHistory>
+        <date>2019-05-13T05:01:24.8258402+02:00</date>
+        <comment>commmmmmmmmmment</comment>
+        <empId>1</empId>
+      </CommentHistory>
+    </comments>
+    <attachments>
+      <AttachmentHistory>
+        <date>2019-05-13T05:01:24.8258402+02:00</date>
+        <attachment>C:\Users\shaks</attachment>
+        <empId>1</empId>
+      </AttachmentHistory>
+      <AttachmentHistory>
+        <date>2019-05-13T05:01:24.8258402+02:00</date>
+        <attachment>C:\Users\shakshak</attachment>
+        <empId>1</empId>
+      </AttachmentHistory>
+    </attachments>
+  </TaskHistory>
+</ArrayOfTaskHistory>

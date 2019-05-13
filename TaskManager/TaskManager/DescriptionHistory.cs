@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace TaskManager
 {
-    public class Description : TaskEvent
+    public class DescriptionHistory : TaskEvent
     {
         public String description;
-        public Description() { }
+        public DescriptionHistory() { }
 
-        public Description(String description) : base()
+        public DescriptionHistory(String description) : base()
         {
             this.description = (String)description.Clone();
         }

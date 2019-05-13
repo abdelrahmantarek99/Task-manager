@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace TaskManager
 {
-    public class Attachment : TaskEvent
+    public class AttachmentHistory : TaskEvent
     {
         public String attachment;
         public int empId;
 
-        public Attachment() { }
+        public AttachmentHistory() { }
 
-        public Attachment(String attachment) : base()
+        public AttachmentHistory(String attachment) : base()
         {
             this.attachment = (String)attachment.Clone();
         }
