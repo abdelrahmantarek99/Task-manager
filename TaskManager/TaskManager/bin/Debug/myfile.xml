@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<ArrayOfProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Project>
+    <id>1</id>
+    <name>chess</name>
+    <description>lablablaaa</description>
+    <emploees>
+      <Employee>
+        <id>11</id>
+        <name>abdo</name>
+        <tasksOfEmp>
+          <EmpTask>
+            <id>111</id>
+            <name>checkmyking</name>
+            <description>discc</description>
+            <comment>ya doc</comment>
+            <attachment>
+              <string>hat file</string>
+            </attachment>
+          </EmpTask>
+        </tasksOfEmp>
+      </Employee>
+    </emploees>
+  </Project>
+</ArrayOfProject>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<arrayOfEmp>
+  <employee>
+    <status>user</status>
+    <id>1</id>
+    <name>a</name>
+    <password>sdsd</password>
+  </employee>
+  <employee>
+    <status>user</status>
+    <id>2</id>
+    <name>tarek</name>
+    <password>sdsd</password>
+  </employee>
+  <employee>
+    <status>admin</status>
+    <id>3</id>
+    <name>tarek</name>
+    <password>sdsd</password>
+  </employee>
+</arrayOfEmp>
