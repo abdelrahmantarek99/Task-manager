@@ -16,6 +16,48 @@ namespace TaskManager
         public Form1()
         {
             InitializeComponent();
+            initializeProjectTape();
+        }
+
+        private void initializeProjectTape()
+        {
+            Project.readProjects();
+            foreach (Project project in Project.projects)
+            {
+                cmbBoxProjectToTask.Items.Add(project.name + "(" + project.id + ")");
+            }
+        }
+
+        public void initilizeTasksForProject(int id)
+        {
+            cmbBoxEmpToTask.Items.Clear();
+            foreach(Project project in Project.projects)
+            {
+                if(project.id == id)
+                {
+                    foreach(Employee emp in project.emploees)
+                    {
+                        cmbBoxEmpToTask.Items.Add(emp.name + "(" + emp.id + ")");
+                    }
+
+                    break;
+                }
+            }
+        }
+
+        private int selectedId(String selected)
+        {
+            int id = 0;
+
+            for (int i = 0; i < selected.Length; i++)
+            {
+                if (selected[i] >= '0' && selected[i] <= '9')
+                {
+                    id = id * 10 + (selected[i] - '0');
+                }
+            }
+
+            return id;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -92,6 +134,62 @@ namespace TaskManager
             FileStream f= new FileStream("myfile.xml",FileMode.OpenOrCreate);
             ser.Serialize(f, listOfproj);
             f.Close();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if(txtTaskName.Text != "" && txtTastDescription.Text != "" && cmbBoxProjectToTask.SelectedItem != null && cmbBoxEmpToTask.SelectedItem != null)
+            {
+                int projectId = selectedId(cmbBoxProjectToTask.SelectedItem.ToString()), empId = selectedId(cmbBoxEmpToTask.SelectedItem.ToString());
+                EmpTask empTask = new EmpTask();
+
+                foreach(Project project in Project.projects)
+                {
+                    if(project.id == projectId)
+                    {
+                        foreach(Employee emp in project.emploees)
+                        {
+                            if(emp.id == empId)
+                            {
+                                empTask.name = txtTaskName.Text;
+                                empTask.description = txtTastDescription.Text;
+                                empTask.id = emp.tasksOfEmp.Count;
+
+                                emp.tasksOfEmp.Add(empTask);
+
+                                Project.writeProjects();
+
+                                txtTaskName.Text = "";
+                                txtTastDescription.Text = "";
+                                break;
+                            }
+                        }
+
+                        break;
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("All Fields Are Requierd");
+            }
+        }
+
+        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbBoxProjectToTask_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            String selected = cmbBoxProjectToTask.SelectedItem.ToString();
+            int id = selectedId(selected);
+            initilizeTasksForProject(id);
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
