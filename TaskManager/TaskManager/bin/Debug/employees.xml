@@ -3,19 +3,13 @@
   <employee>
     <status>user</status>
     <id>1</id>
-    <name>a</name>
-    <password>sdsd</password>
-  </employee>
-  <employee>
-    <status>user</status>
-    <id>2</id>
-    <name>tarek</name>
-    <password>sdsd</password>
+    <name>ahmed</name>
+    <password>moahmed</password>
   </employee>
   <employee>
     <status>admin</status>
-    <id>3</id>
-    <name>tarek</name>
-    <password>sdsd</password>
+    <id>2</id>
+    <name>ahmed amin </name>
+    <password>12345</password>
   </employee>
 </arrayOfEmp>

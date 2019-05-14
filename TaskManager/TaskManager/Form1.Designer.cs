@@ -56,6 +56,8 @@
             this.button6 = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.txtTaskName = new System.Windows.Forms.TextBox();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // button1
@@ -71,8 +73,8 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(99, 142);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Location = new System.Drawing.Point(99, 143);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(143, 28);
             this.button2.TabIndex = 1;
@@ -93,7 +95,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(148, 31);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(132, 22);
             this.textBox1.TabIndex = 6;
@@ -101,7 +103,7 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(148, 95);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(132, 22);
             this.textBox3.TabIndex = 10;
@@ -119,7 +121,7 @@
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(500, 34);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(4);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(132, 22);
             this.textBox6.TabIndex = 13;
@@ -137,12 +139,13 @@
             // button5
             // 
             this.button5.Location = new System.Drawing.Point(472, 142);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(161, 28);
             this.button5.TabIndex = 11;
             this.button5.Text = "create project";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label6
             // 
@@ -157,7 +160,7 @@
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(500, 95);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(132, 22);
             this.textBox5.TabIndex = 15;
@@ -176,7 +179,7 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(120, 234);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(160, 24);
             this.comboBox1.TabIndex = 18;
@@ -194,7 +197,7 @@
             // txtTastDescription
             // 
             this.txtTastDescription.Location = new System.Drawing.Point(624, 410);
-            this.txtTastDescription.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTastDescription.Margin = new System.Windows.Forms.Padding(4);
             this.txtTastDescription.Name = "txtTastDescription";
             this.txtTastDescription.Size = new System.Drawing.Size(120, 22);
             this.txtTastDescription.TabIndex = 26;
@@ -214,7 +217,7 @@
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(259, 277);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(120, 31);
             this.button3.TabIndex = 27;
@@ -245,7 +248,7 @@
             // 
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(472, 238);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(160, 24);
             this.comboBox2.TabIndex = 29;
@@ -264,7 +267,7 @@
             // 
             this.cmbBoxEmpToTask.FormattingEnabled = true;
             this.cmbBoxEmpToTask.Location = new System.Drawing.Point(472, 351);
-            this.cmbBoxEmpToTask.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbBoxEmpToTask.Margin = new System.Windows.Forms.Padding(4);
             this.cmbBoxEmpToTask.Name = "cmbBoxEmpToTask";
             this.cmbBoxEmpToTask.Size = new System.Drawing.Size(160, 24);
             this.cmbBoxEmpToTask.TabIndex = 34;
@@ -273,7 +276,7 @@
             // button4
             // 
             this.button4.Location = new System.Drawing.Point(259, 462);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(120, 31);
             this.button4.TabIndex = 33;
@@ -295,7 +298,7 @@
             // 
             this.cmbBoxProjectToTask.FormattingEnabled = true;
             this.cmbBoxProjectToTask.Location = new System.Drawing.Point(120, 354);
-            this.cmbBoxProjectToTask.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbBoxProjectToTask.Margin = new System.Windows.Forms.Padding(4);
             this.cmbBoxProjectToTask.Name = "cmbBoxProjectToTask";
             this.cmbBoxProjectToTask.Size = new System.Drawing.Size(160, 24);
             this.cmbBoxProjectToTask.TabIndex = 31;
@@ -304,7 +307,7 @@
             // button6
             // 
             this.button6.Location = new System.Drawing.Point(697, 142);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button6.Margin = new System.Windows.Forms.Padding(4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(100, 28);
             this.button6.TabIndex = 36;
@@ -329,11 +332,35 @@
             this.txtTaskName.Size = new System.Drawing.Size(100, 22);
             this.txtTaskName.TabIndex = 38;
             // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(99, 124);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(67, 21);
+            this.radioButton1.TabIndex = 39;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "admin";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(198, 124);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(57, 21);
+            this.radioButton2.TabIndex = 40;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "user";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(796, 507);
+            this.Controls.Add(this.radioButton2);
+            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.txtTaskName);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.button6);
@@ -401,6 +428,8 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox txtTaskName;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton2;
     }
 }
 

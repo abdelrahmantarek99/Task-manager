@@ -29,3 +29,14 @@ C:\Users\shaks\Documents\GitHub\El Hanty Kanty\Task-Manager\TaskManager\TaskMana
 C:\Users\shaks\Documents\GitHub\El Hanty Kanty\Task-Manager\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.CopyComplete
 C:\Users\shaks\Documents\GitHub\El Hanty Kanty\Task-Manager\TaskManager\TaskManager\obj\Debug\TaskManager.exe
 C:\Users\shaks\Documents\GitHub\El Hanty Kanty\Task-Manager\TaskManager\TaskManager\obj\Debug\TaskManager.pdb
+C:\Users\shaks\Documents\TaskManager\TaskManager Abdo\Task-Manager-4afff74b42a920b653cf95087c5bf15c2de4064d\TaskManager\TaskManager\bin\Debug\TaskManager.exe.config
+C:\Users\shaks\Documents\TaskManager\TaskManager Abdo\Task-Manager-4afff74b42a920b653cf95087c5bf15c2de4064d\TaskManager\TaskManager\bin\Debug\TaskManager.exe
+C:\Users\shaks\Documents\TaskManager\TaskManager Abdo\Task-Manager-4afff74b42a920b653cf95087c5bf15c2de4064d\TaskManager\TaskManager\bin\Debug\TaskManager.pdb
+C:\Users\shaks\Documents\TaskManager\TaskManager Abdo\Task-Manager-4afff74b42a920b653cf95087c5bf15c2de4064d\TaskManager\TaskManager\obj\Debug\TaskManager.csprojAssemblyReference.cache
+C:\Users\shaks\Documents\TaskManager\TaskManager Abdo\Task-Manager-4afff74b42a920b653cf95087c5bf15c2de4064d\TaskManager\TaskManager\obj\Debug\TaskManager.Form1.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager Abdo\Task-Manager-4afff74b42a920b653cf95087c5bf15c2de4064d\TaskManager\TaskManager\obj\Debug\TaskManager.Properties.Resources.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager Abdo\Task-Manager-4afff74b42a920b653cf95087c5bf15c2de4064d\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.GenerateResource.cache
+C:\Users\shaks\Documents\TaskManager\TaskManager Abdo\Task-Manager-4afff74b42a920b653cf95087c5bf15c2de4064d\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.CoreCompileInputs.cache
+C:\Users\shaks\Documents\TaskManager\TaskManager Abdo\Task-Manager-4afff74b42a920b653cf95087c5bf15c2de4064d\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.CopyComplete
+C:\Users\shaks\Documents\TaskManager\TaskManager Abdo\Task-Manager-4afff74b42a920b653cf95087c5bf15c2de4064d\TaskManager\TaskManager\obj\Debug\TaskManager.exe
+C:\Users\shaks\Documents\TaskManager\TaskManager Abdo\Task-Manager-4afff74b42a920b653cf95087c5bf15c2de4064d\TaskManager\TaskManager\obj\Debug\TaskManager.pdb
