@@ -10,13 +10,15 @@ namespace TaskManager
     {
         public int id;
         public string name, description, comment;
+        public Boolean close;
         public List<string> attachment;
         
         public EmpTask()
         {
-            attachment = new List<string>();
+            this.id = 0;
+            this.close = false;
+            this.name = this.description = this.comment = "";
+            this.attachment = new List<string>();
         }
-
-
     }
 }

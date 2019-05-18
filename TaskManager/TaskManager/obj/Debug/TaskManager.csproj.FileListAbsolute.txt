@@ -29,14 +29,163 @@ C:\Users\shaks\Documents\GitHub\El Hanty Kanty\Task-Manager\TaskManager\TaskMana
 C:\Users\shaks\Documents\GitHub\El Hanty Kanty\Task-Manager\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.CopyComplete
 C:\Users\shaks\Documents\GitHub\El Hanty Kanty\Task-Manager\TaskManager\TaskManager\obj\Debug\TaskManager.exe
 C:\Users\shaks\Documents\GitHub\El Hanty Kanty\Task-Manager\TaskManager\TaskManager\obj\Debug\TaskManager.pdb
-C:\Users\shaks\Documents\TaskManager\TaskManager Abdo\Task-Manager-4afff74b42a920b653cf95087c5bf15c2de4064d\TaskManager\TaskManager\bin\Debug\TaskManager.exe.config
-C:\Users\shaks\Documents\TaskManager\TaskManager Abdo\Task-Manager-4afff74b42a920b653cf95087c5bf15c2de4064d\TaskManager\TaskManager\bin\Debug\TaskManager.exe
-C:\Users\shaks\Documents\TaskManager\TaskManager Abdo\Task-Manager-4afff74b42a920b653cf95087c5bf15c2de4064d\TaskManager\TaskManager\bin\Debug\TaskManager.pdb
-C:\Users\shaks\Documents\TaskManager\TaskManager Abdo\Task-Manager-4afff74b42a920b653cf95087c5bf15c2de4064d\TaskManager\TaskManager\obj\Debug\TaskManager.csprojAssemblyReference.cache
-C:\Users\shaks\Documents\TaskManager\TaskManager Abdo\Task-Manager-4afff74b42a920b653cf95087c5bf15c2de4064d\TaskManager\TaskManager\obj\Debug\TaskManager.Form1.resources
-C:\Users\shaks\Documents\TaskManager\TaskManager Abdo\Task-Manager-4afff74b42a920b653cf95087c5bf15c2de4064d\TaskManager\TaskManager\obj\Debug\TaskManager.Properties.Resources.resources
-C:\Users\shaks\Documents\TaskManager\TaskManager Abdo\Task-Manager-4afff74b42a920b653cf95087c5bf15c2de4064d\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.GenerateResource.cache
-C:\Users\shaks\Documents\TaskManager\TaskManager Abdo\Task-Manager-4afff74b42a920b653cf95087c5bf15c2de4064d\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.CoreCompileInputs.cache
-C:\Users\shaks\Documents\TaskManager\TaskManager Abdo\Task-Manager-4afff74b42a920b653cf95087c5bf15c2de4064d\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.CopyComplete
-C:\Users\shaks\Documents\TaskManager\TaskManager Abdo\Task-Manager-4afff74b42a920b653cf95087c5bf15c2de4064d\TaskManager\TaskManager\obj\Debug\TaskManager.exe
-C:\Users\shaks\Documents\TaskManager\TaskManager Abdo\Task-Manager-4afff74b42a920b653cf95087c5bf15c2de4064d\TaskManager\TaskManager\obj\Debug\TaskManager.pdb
+C:\Users\user\Documents\GitHub\Task-Manager\TaskManager\TaskManager\bin\Debug\TaskManager.exe.config
+C:\Users\user\Documents\GitHub\Task-Manager\TaskManager\TaskManager\bin\Debug\TaskManager.exe
+C:\Users\user\Documents\GitHub\Task-Manager\TaskManager\TaskManager\bin\Debug\TaskManager.pdb
+C:\Users\user\Documents\GitHub\Task-Manager\TaskManager\TaskManager\obj\Debug\TaskManager.csprojAssemblyReference.cache
+C:\Users\user\Documents\GitHub\Task-Manager\TaskManager\TaskManager\obj\Debug\TaskManager.Form1.resources
+C:\Users\user\Documents\GitHub\Task-Manager\TaskManager\TaskManager\obj\Debug\TaskManager.Properties.Resources.resources
+C:\Users\user\Documents\GitHub\Task-Manager\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.GenerateResource.cache
+C:\Users\user\Documents\GitHub\Task-Manager\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\Task-Manager\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.CopyComplete
+C:\Users\user\Documents\GitHub\Task-Manager\TaskManager\TaskManager\obj\Debug\TaskManager.exe
+C:\Users\user\Documents\GitHub\Task-Manager\TaskManager\TaskManager\obj\Debug\TaskManager.pdb
+C:\Users\user\Desktop\TaskManager\TaskManager\bin\Debug\TaskManager.exe.config
+C:\Users\user\Desktop\TaskManager\TaskManager\bin\Debug\TaskManager.exe
+C:\Users\user\Desktop\TaskManager\TaskManager\bin\Debug\TaskManager.pdb
+C:\Users\user\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.Form1.resources
+C:\Users\user\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.Login.resources
+C:\Users\user\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.Properties.Resources.resources
+C:\Users\user\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.GenerateResource.cache
+C:\Users\user\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.CopyComplete
+C:\Users\user\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.exe
+C:\Users\user\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.pdb
+C:\Users\user\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.csprojAssemblyReference.cache
+C:\Users\user\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.Create_Employee.resources
+C:\Users\user\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.Create_Project.resources
+C:\Users\user\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.CreateTask.resources
+C:\Users\user\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.Addandremoveemployee.resources
+C:\Users\user\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.EditProject.resources
+C:\Users\user\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.EditTask.resources
+C:\Users\user\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.CloseProject.resources
+C:\Users\user\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.CloseTask.resources
+C:\Users\user\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.EditEmployee.resources
+C:\Users\user\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.ViewProject.resources
+C:\Users\user\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.ViewTask.resources
+C:\Users\user\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.ViewTaskHistory.resources
+C:\Users\user\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.UserAction.resources
+C:\Users\user\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.AdminAction.resources
+C:\Users\user\Desktop\TaskManager\TaskManager\obj\Debug\TaskManager.Home.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\bin\Debug\TaskManager.exe.config
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\bin\Debug\TaskManager.exe
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\bin\Debug\TaskManager.pdb
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.csprojAssemblyReference.cache
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.AdminAction.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.CloseProject.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.CloseTask.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.Create_Employee.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.Create_Project.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.CreateTask.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.EditEmployee.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.EditProject.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.EditTask.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.Form1.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.Login.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.Properties.Resources.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.UserAction.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.ViewProject.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.ViewTask.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.ViewTaskHistory.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.GenerateResource.cache
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.CoreCompileInputs.cache
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.CopyComplete
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.exe
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.pdb
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.AdminActionForm.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.CreateProjectForm.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.AddEmployee.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.RemoveEmployee.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.CloseTaskForm.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.UserActionForm.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.CreateTaskForm.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.CreateEmployeeForm.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.CloseProjectForm.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.EditEmployeeForm.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.EditProjectForm.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.RemoveEmployeeForm.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.ViewProjectForm.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.ViewTaskForm.resources
+C:\Users\shaks\Documents\TaskManager\TaskManager\TaskManager\obj\Debug\TaskManager.ViewTaskHistoryForm.resources
+D:\Downloads\TaskManager\TaskManager\bin\Debug\TaskManager.exe.config
+D:\Downloads\TaskManager\TaskManager\bin\Debug\TaskManager.exe
+D:\Downloads\TaskManager\TaskManager\bin\Debug\TaskManager.pdb
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.csprojAssemblyReference.cache
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.AddEmployee.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.AdminAction.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.AdminActionForm.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.CloseProject.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.CloseProjectForm.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.CloseTask.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.CloseTaskForm.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.Create_Employee.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.Create_Project.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.CreateEmployeeForm.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.CreateProjectForm.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.CreateTask.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.CreateTaskForm.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.EditEmployee.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.EditEmployeeForm.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.EditProject.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.EditProjectForm.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.EditTask.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.Form1.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.Login.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.Properties.Resources.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.RemoveEmployee.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.RemoveEmployeeForm.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.UserAction.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.UserActionForm.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.ViewTaskForm.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.ViewProject.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.ViewProjectForm.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.ViewTask.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.ViewTaskHistory.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.ViewTaskHistoryForm.resources
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.GenerateResource.cache
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.CoreCompileInputs.cache
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.CopyComplete
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.exe
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.pdb
+D:\Downloads\TaskManager\TaskManager\obj\Debug\TaskManager.AddEmployeeForm.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\bin\Debug\TaskManager.exe.config
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\bin\Debug\TaskManager.exe
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\bin\Debug\TaskManager.pdb
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.csprojAssemblyReference.cache
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.AddEmployee.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.AddEmployeeForm.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.AdminAction.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.AdminActionForm.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.CloseProject.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.CloseProjectForm.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.CloseTask.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.CloseTaskForm.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.Create_Employee.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.Create_Project.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.CreateEmployeeForm.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.CreateProjectForm.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.CreateTask.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.CreateTaskForm.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.EditEmployee.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.EditEmployeeForm.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.EditProject.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.EditProjectForm.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.EditTask.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.Form1.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.Login.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.Properties.Resources.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.RemoveEmployee.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.RemoveEmployeeForm.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.UserAction.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.UserActionForm.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.ViewTaskForm.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.ViewProject.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.ViewProjectForm.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.ViewTask.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.ViewTaskHistory.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.ViewTaskHistoryForm.resources
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.GenerateResource.cache
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.CopyComplete
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.exe
+C:\Users\Ahmed\Desktop\Try forever\TaskManager\TaskManager\obj\Debug\TaskManager.pdb

@@ -2,42 +2,25 @@
 <ArrayOfProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Project>
     <id>1</id>
-    <name>chess</name>
-    <description>lablablaaa</description>
+    <name>yarb</name>
+    <description>what</description>
+    <status>opened</status>
     <emploees>
       <Employee>
-        <id>11</id>
-        <name>abdo</name>
+        <id>5</id>
+        <name>ahmed</name>
+        <role>User</role>
         <tasksOfEmp>
           <EmpTask>
-            <id>111</id>
-            <name>checkmyking</name>
-            <description>discc</description>
-            <comment>ya doc</comment>
-            <attachment>
-              <string>hat file</string>
-            </attachment>
-          </EmpTask>
-          <EmpTask>
-            <id>1</id>
-            <name>test</name>
-            <description>bla bla lba</description>
-            <attachment />
-          </EmpTask>
-          <EmpTask>
-            <id>2</id>
-            <name>task2 </name>
-            <description>asd</description>
+            <id>0</id>
+            <name>ar7mna ya allah</name>
+            <description>hh</description>
+            <comment />
+            <close>false</close>
             <attachment />
           </EmpTask>
         </tasksOfEmp>
       </Employee>
     </emploees>
-  </Project>
-  <Project>
-    <id>1</id>
-    <name>chessss a3333</name>
-    <description>chess off a7</description>
-    <emploees />
   </Project>
 </ArrayOfProject>

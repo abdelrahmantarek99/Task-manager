@@ -12,7 +12,7 @@ namespace TaskManager
     {
         static public List<Project> projects = new List<Project>();
         public int id;
-        public string name, description;
+        public string name, description, status;
         public List<Employee> emploees;
         public Project()
         {
@@ -32,7 +32,13 @@ namespace TaskManager
 
         static public void writeProjects()
         {
-            FileStream fileStream = new FileStream("Projects.xml", FileMode.OpenOrCreate);
+            FileStream fileStream;
+
+            if (File.Exists("Projects.xml"))
+                fileStream = new FileStream("Projects.xml", FileMode.Truncate);
+            else
+                fileStream = new FileStream("Projects.xml", FileMode.OpenOrCreate);
+
             XmlSerializer xmlSerializer = new XmlSerializer(projects.GetType());
             xmlSerializer.Serialize(fileStream, projects);
             fileStream.Close();

@@ -1,15 +1,33 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<arrayOfEmp>
-  <employee>
-    <status>user</status>
+<?xml version="1.0"?>
+<ArrayOfEmployeeFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EmployeeFile>
+    <role>Admin</role>
     <id>1</id>
-    <name>ahmed</name>
-    <password>moahmed</password>
-  </employee>
-  <employee>
-    <status>admin</status>
+    <name>boody1</name>
+    <password>123</password>
+  </EmployeeFile>
+  <EmployeeFile>
+    <role>User</role>
     <id>2</id>
-    <name>ahmed amin </name>
-    <password>12345</password>
-  </employee>
-</arrayOfEmp>
+    <name>boody</name>
+    <password>123</password>
+  </EmployeeFile>
+  <EmployeeFile>
+    <role>User</role>
+    <id>3</id>
+    <name>boodyTareek</name>
+    <password>123</password>
+  </EmployeeFile>
+  <EmployeeFile>
+    <role>User</role>
+    <id>4</id>
+    <name>boody5</name>
+    <password>123</password>
+  </EmployeeFile>
+  <EmployeeFile>
+    <role>User</role>
+    <id>5</id>
+    <name>ahmed</name>
+    <password> 123</password>
+  </EmployeeFile>
+</ArrayOfEmployeeFile>

@@ -49,10 +49,125 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddEmployee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddEmployee.Designer.cs">
+      <DependentUpon>AddEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEmployeeForm.Designer.cs">
+      <DependentUpon>AddEmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAction.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminAction.Designer.cs">
+      <DependentUpon>AdminAction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminActionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminActionForm.Designer.cs">
+      <DependentUpon>AdminActionForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="AttachmentHistory.cs" />
+    <Compile Include="CloseProject.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CloseProject.Designer.cs">
+      <DependentUpon>CloseProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CloseProjectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CloseProjectForm.Designer.cs">
+      <DependentUpon>CloseProjectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CloseTask.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CloseTask.Designer.cs">
+      <DependentUpon>CloseTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CloseTaskForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CloseTaskForm.Designer.cs">
+      <DependentUpon>CloseTaskForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="CommentHistory.cs" />
+    <Compile Include="Create Employee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Create Employee.Designer.cs">
+      <DependentUpon>Create Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Create Project.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Create Project.Designer.cs">
+      <DependentUpon>Create Project.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateEmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateEmployeeForm.Designer.cs">
+      <DependentUpon>CreateEmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateProjectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateProjectForm.Designer.cs">
+      <DependentUpon>CreateProjectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateTask.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CreateTask.Designer.cs">
+      <DependentUpon>CreateTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateTaskForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateTaskForm.Designer.cs">
+      <DependentUpon>CreateTaskForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="DescriptionHistory.cs" />
+    <Compile Include="EditEmployee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditEmployee.Designer.cs">
+      <DependentUpon>EditEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditEmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditEmployeeForm.Designer.cs">
+      <DependentUpon>EditEmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditProject.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditProject.Designer.cs">
+      <DependentUpon>EditProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditProjectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditProjectForm.Designer.cs">
+      <DependentUpon>EditProjectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditTask.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditTask.Designer.cs">
+      <DependentUpon>EditTask.cs</DependentUpon>
+    </Compile>
     <Compile Include="Employee.cs" />
+    <Compile Include="EmployeeFile.cs" />
     <Compile Include="EmpTask.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -61,13 +176,141 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="ForwardHistory.cs" />
+    <Compile Include="GlobalVariableClass.cs" />
+    <Compile Include="Login.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Project.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemoveEmployee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RemoveEmployee.Designer.cs">
+      <DependentUpon>RemoveEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveEmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoveEmployeeForm.Designer.cs">
+      <DependentUpon>RemoveEmployeeForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="TaskHistory.cs" />
     <Compile Include="TaskEvent.cs" />
+    <Compile Include="Tools.cs" />
+    <Compile Include="UserAction.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserAction.Designer.cs">
+      <DependentUpon>UserAction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserActionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserActionForm.Designer.cs">
+      <DependentUpon>UserActionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewTaskForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewTaskForm.Designer.cs">
+      <DependentUpon>ViewTaskForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewProject.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewProject.Designer.cs">
+      <DependentUpon>ViewProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewProjectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewProjectForm.Designer.cs">
+      <DependentUpon>ViewProjectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewTask.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewTask.Designer.cs">
+      <DependentUpon>ViewTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewTaskHistory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewTaskHistory.Designer.cs">
+      <DependentUpon>ViewTaskHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewTaskHistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewTaskHistoryForm.Designer.cs">
+      <DependentUpon>ViewTaskHistoryForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddEmployee.resx">
+      <DependentUpon>AddEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEmployeeForm.resx">
+      <DependentUpon>AddEmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminAction.resx">
+      <DependentUpon>AdminAction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminActionForm.resx">
+      <DependentUpon>AdminActionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CloseProject.resx">
+      <DependentUpon>CloseProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CloseProjectForm.resx">
+      <DependentUpon>CloseProjectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CloseTask.resx">
+      <DependentUpon>CloseTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CloseTaskForm.resx">
+      <DependentUpon>CloseTaskForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create Employee.resx">
+      <DependentUpon>Create Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create Project.resx">
+      <DependentUpon>Create Project.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateEmployeeForm.resx">
+      <DependentUpon>CreateEmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateProjectForm.resx">
+      <DependentUpon>CreateProjectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateTask.resx">
+      <DependentUpon>CreateTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateTaskForm.resx">
+      <DependentUpon>CreateTaskForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditEmployee.resx">
+      <DependentUpon>EditEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditEmployeeForm.resx">
+      <DependentUpon>EditEmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditProject.resx">
+      <DependentUpon>EditProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditProjectForm.resx">
+      <DependentUpon>EditProjectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditTask.resx">
+      <DependentUpon>EditTask.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -78,6 +321,36 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RemoveEmployee.resx">
+      <DependentUpon>RemoveEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoveEmployeeForm.resx">
+      <DependentUpon>RemoveEmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserAction.resx">
+      <DependentUpon>UserAction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserActionForm.resx">
+      <DependentUpon>UserActionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewTaskForm.resx">
+      <DependentUpon>ViewTaskForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewProject.resx">
+      <DependentUpon>ViewProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewProjectForm.resx">
+      <DependentUpon>ViewProjectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewTask.resx">
+      <DependentUpon>ViewTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewTaskHistory.resx">
+      <DependentUpon>ViewTaskHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewTaskHistoryForm.resx">
+      <DependentUpon>ViewTaskHistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

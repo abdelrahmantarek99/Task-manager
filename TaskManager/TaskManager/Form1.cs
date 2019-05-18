@@ -9,8 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Xml.Serialization;
-using System.Xml;
-
 namespace TaskManager
 {
     public partial class Form1 : Form
@@ -18,48 +16,12 @@ namespace TaskManager
         public Form1()
         {
             InitializeComponent();
-            initializeProjectTape();
+            loadData();
         }
 
-        private void initializeProjectTape()
+        public void loadData()
         {
-            Project.readProjects();
-            foreach (Project project in Project.projects)
-            {
-                cmbBoxProjectToTask.Items.Add(project.name + "(" + project.id + ")");
-            }
-        }
-
-        public void initilizeTasksForProject(int id)
-        {
-            cmbBoxEmpToTask.Items.Clear();
-            foreach(Project project in Project.projects)
-            {
-                if(project.id == id)
-                {
-                    foreach(Employee emp in project.emploees)
-                    {
-                        cmbBoxEmpToTask.Items.Add(emp.name + "(" + emp.id + ")");
-                    }
-
-                    break;
-                }
-            }
-        }
-
-        private int selectedId(String selected)
-        {
-            int id = 0;
-
-            for (int i = 0; i < selected.Length; i++)
-            {
-                if (selected[i] >= '0' && selected[i] <= '9')
-                {
-                    id = id * 10 + (selected[i] - '0');
-                }
-            }
-
-            return id;
+          
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -93,89 +55,12 @@ namespace TaskManager
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private string getIdOfEmp()
-        {
-            XmlDocument doc = new XmlDocument();
-            doc.Load("employees.xml");
-            XmlNodeList list = doc.GetElementsByTagName("employee");
-            return (list.Count + 1).ToString();
-
+            login1.initializ(this);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string name = textBox1.Text, password = textBox3.Text, id = "1", status = "";
-            if ((radioButton1.Checked || radioButton2.Checked) && (name.Length > 0 && password.Length > 0))
-            {
-                if (radioButton1.Checked) status = radioButton1.Text;
-                else status = radioButton2.Text;
-                if (!File.Exists("employees.xml"))
-                {
-                    XmlWriter wr = XmlWriter.Create("employees.xml");
-                    wr.WriteStartDocument();
-                    wr.WriteStartElement("arrayOfEmp");
-                    wr.WriteStartElement("employee");
 
-                    wr.WriteStartElement("status");
-                    wr.WriteString(status);
-                    wr.WriteEndElement();
-
-                    wr.WriteStartElement("id");
-                    wr.WriteString(id);
-                    wr.WriteEndElement();
-
-                    wr.WriteStartElement("name");
-                    wr.WriteString(name);
-                    wr.WriteEndElement();
-
-                    wr.WriteStartElement("password");
-                    wr.WriteString(password);
-                    wr.WriteEndElement();
-
-                    wr.WriteEndElement();
-                    wr.WriteEndElement();
-                    wr.WriteEndDocument();
-                    wr.Close();
-                }
-                else
-                {
-                    id = getIdOfEmp();
-
-                    XmlDocument doc = new XmlDocument();
-
-                    XmlElement parent = doc.CreateElement("employee");
-
-                    XmlElement child = doc.CreateElement("status");
-                    child.InnerText = status;
-                    parent.AppendChild(child);
-
-                    child = doc.CreateElement("id");
-                    child.InnerText = id;
-                    parent.AppendChild(child);
-
-                    child = doc.CreateElement("name");
-                    child.InnerText = name;
-                    parent.AppendChild(child);
-
-                    child = doc.CreateElement("password");
-                    child.InnerText = password;
-                    parent.AppendChild(child);
-                    //////////
-                    doc.Load("employees.xml");
-
-                    XmlElement root = doc.DocumentElement;
-                    root.AppendChild(parent);
-
-                    doc.Save("employees.xml");
-                }
-
-                MessageBox.Show("employee ID = " + id);
-            }
-            else
-                MessageBox.Show("please check your data");
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -190,96 +75,153 @@ namespace TaskManager
 
         private void button6_Click(object sender, EventArgs e)
         {
-            List<Project> listOfproj = new List<Project>();
+            
+            ///
             Employee em=new Employee();
+            FileStream ss = new FileStream("test.xml", FileMode.OpenOrCreate);
+            XmlSerializer xm = new XmlSerializer(em.GetType());
+            //em.name = "mohamed";
+            ////em.id = 10;
+            xm.Serialize(ss, em);
+            ///
+            List<Project> listOfproj = new List<Project>();
             Project p = new Project();
             EmpTask t=new EmpTask();
-            
+
             p.id = 1;
             p.name = "chess";
             p.description = "lablablaaa";
-            em.id=11;
-            em.name="abdo";
-            t.id=111;
-            t.name="checkmyking";
-            t.description="discc";
-            t.comment="ya doc";
-            t.attachment.Add("hat file");
-           
-            em.tasksOfEmp.Add(t);
-            p.emploees.Add(em);
+            //em.id = 11;
+            //em.name = "abdo";
+            //t.id = 111;
+            //t.name = "checkmyking";
+            //t.description = "discc";
+            //t.comment = "ya doc";
+
+            //t.attachment.Add("hat file");
+
+            //em.tasksOfEmp.Add(t);
+            //p.emploees.Add(em);
             listOfproj.Add(p);
+
             XmlSerializer ser =new XmlSerializer(listOfproj.GetType());
             FileStream f= new FileStream("myfile.xml",FileMode.OpenOrCreate);
             ser.Serialize(f, listOfproj);
             f.Close();
+
+            /// load projects into the combobox
+            List<Project> list = new List<Project>();
+            XmlSerializer xs = new XmlSerializer(list.GetType());
+            FileStream fs = new FileStream("myfile.xml", FileMode.OpenOrCreate);
+            list = (List<Project>)xs.Deserialize(fs);
+            fs.Close();
+            /*for (int i = 0; i < list.Count; i++)
+            {
+                combopro.Items.Add(list[i].name + " " + list[i].id + "\n");
+            }*/
+
+            /// add employees to employees file
+            List<Employee> lis = new List<Employee>();
+            Employee emp = new Employee();
+            emp.id = 5;
+            emp.name = "mohamed";
+            lis.Add(emp);
+            emp = new Employee();
+            emp.name = "ahmed";
+            emp.id = 7;
+            lis.Add(emp);
+            FileStream fss = new FileStream("employees.xml", FileMode.OpenOrCreate);
+            XmlSerializer xss = new XmlSerializer(lis.GetType());
+            xss.Serialize(fss, lis);
+            fss.Close();
+
+            /// load employees into comboemp
+
+            FileStream ff = new FileStream("employees.xml", FileMode.OpenOrCreate);
+            XmlSerializer xmlser = new XmlSerializer(lis.GetType());
+            lis = (List<Employee>)xmlser.Deserialize(ff);
+            /*for(int i = 0; i < lis.Count; i++)
+            {
+                comboemp.Items.Add(lis[i].name + " " + lis[i].id);
+            }*/
+            ff.Close();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void combopro_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if(txtTaskName.Text != "" && txtTastDescription.Text != "" && cmbBoxProjectToTask.SelectedItem != null && cmbBoxEmpToTask.SelectedItem != null)
+
+        }
+        private void btnadd_Click(object sender, EventArgs e)
+        {
+            /// get the selected employee
+
+            List<Employee> lis = new List<Employee>();
+            List<Project> list = new List<Project>();
+            Employee emp = new Employee();
+            Project pro = new Project();
+            FileStream ff = new FileStream("employees.xml", FileMode.OpenOrCreate);
+            XmlSerializer xmlser = new XmlSerializer(lis.GetType());
+            lis = (List<Employee>)xmlser.Deserialize(ff);
+            /*for (int i = 0; i < lis.Count; i++)
             {
-                int projectId = selectedId(cmbBoxProjectToTask.SelectedItem.ToString()), empId = selectedId(cmbBoxEmpToTask.SelectedItem.ToString());
-                EmpTask empTask = new EmpTask();
-
-                foreach(Project project in Project.projects)
+                if (lis[i].name + " " + lis[i].id == comboemp.Text)
                 {
-                    if(project.id == projectId)
+                    emp = lis[i];
+                    break;
+                }
+            }*/
+
+            ff.Close();
+
+
+
+            /// get the selected project
+            string s = "";//combopro.Text.ToString();
+
+            XmlSerializer xs = new XmlSerializer(list.GetType());
+            FileStream fs = new FileStream("myfile.xml", FileMode.OpenOrCreate);
+            list = (List<Project>)xs.Deserialize(fs);
+            fs.Close();
+            for (int i = 0; i < list.Count; i++)
+            {
+                if (list[i].name + " " + list[i].id + "\n" == s)
+                {
+                    /*for (int j = 0; j < list[i].emploees.Count; j++)
                     {
-                        foreach(Employee emp in project.emploees)
+                        if (list[i].emploees[j].name + " " + list[i].emploees[j].id == comboemp.Text)
                         {
-                            if(emp.id == empId)
-                            {
-                                empTask.name = txtTaskName.Text;
-                                empTask.description = txtTastDescription.Text;
-                                empTask.id = emp.tasksOfEmp.Count;
-
-                                emp.tasksOfEmp.Add(empTask);
-
-                                Project.writeProjects();
-
-                                txtTaskName.Text = "";
-                                txtTastDescription.Text = "";
-                                break;
-                            }
+                            MessageBox.Show("already exist");
+                            return;
                         }
-
-                        break;
-                    }
+                    }*/
+                    // add the employee to the project
+                    list[i].emploees.Add(emp);
+                    MessageBox.Show("added successfully");
+                    XmlSerializer xss = new XmlSerializer(list.GetType());
+                    FileStream fss = new FileStream("myfile.xml", FileMode.OpenOrCreate);
+                    xss.Serialize(fss, list);
+                    fss.Close();
+                    break;
                 }
             }
-            else
-            {
-                MessageBox.Show("All Fields Are Requierd");
-            }
         }
-
-        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cmbBoxProjectToTask_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            String selected = cmbBoxProjectToTask.SelectedItem.ToString();
-            int id = selectedId(selected);
-            initilizeTasksForProject(id);
-        }
-
-        private void label13_Click(object sender, EventArgs e)
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Project p = new Project();
-            p.name = textBox6.Text;
-            p.description = textBox5.Text;
-            Project.readProjects();
-            p.id = Project.projects.Count;
-            Project.projects.Add(p);
-            Project.writeProjects();
+        }
+
+        private void login1_Load(object sender, EventArgs e)
+        {
+            foreach (System.Windows.Forms.Control c in login1.Controls)
+            {
+                TextBox tb = new TextBox();
+                if (c.GetType() == tb.GetType())
+                    c.Text = "";
+            }
         }
     }
 }
